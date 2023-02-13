@@ -71,7 +71,7 @@ def verify_word_ladder(ladder):
     if ladder == []:
         return False
     for (i, entry) in enumerate(ladder):
-        if i <= len(ladder) - 2 and _adjacent(ladder[i], ladder[i+1]) is False:
+        if i <= len(ladder) - 2 and _adjacent(ladder[i], ladder[i + 1]) is False:
             return False
     return True
 
